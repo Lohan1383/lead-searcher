@@ -2,6 +2,7 @@
   "name": "lead-searcher",
   "version": "1.0.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dependencies": {
     "axios": "^1.7.2",
 =======
@@ -11,24 +12,23 @@
     "path-to-regexp": "^8.2.0"
   },
   "main": "index.js",
+=======
+>>>>>>> 8598c28b6aebc8f0820c94ae914a1d3a512576ef
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:css": "npx tailwindcss -i ./input.css -o ./output.css"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lohan1383/lead-searcher.git"
+  "dependencies": {
+    "auto-prefixer": "10.4.20",
+    "postcss": "8.4.47",
+    "tailwindcss": "3.4.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Lohan1383/lead-searcher/issues"
-  },
-  "homepage": "https://github.com/Lohan1383/lead-searcher#readme",
-  "description": "",
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.14"
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
