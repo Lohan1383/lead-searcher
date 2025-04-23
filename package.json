@@ -1,19 +1,6 @@
 {
   "name": "lead-searcher",
   "version": "1.0.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "dependencies": {
-    "axios": "^1.7.2",
-=======
- 
-    "express": "^4.21.1",
->>>>>>> de6edc1bc4ee4ad645af2d2e5ea32188d5d146ca
-    "path-to-regexp": "^8.2.0"
-  },
-  "main": "index.js",
-=======
->>>>>>> 8598c28b6aebc8f0820c94ae914a1d3a512576ef
   "scripts": {
     "dev": "vite",
     "build": "vite build",
