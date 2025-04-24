@@ -20,7 +20,18 @@
     },
     {
       "src": "/assets/(.*)",
-      "dest": "/dist/assets/$1"
+      "dest": "/dist/assets/$1",
+      "headers": {
+        "Content-Type": "application/javascript"
+      }
+    },
+    {
+      "src": "/output.css",
+      "dest": "/dist/output.css"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/dist/favicon.ico"
     },
     {
       "src": "/(.*)",
